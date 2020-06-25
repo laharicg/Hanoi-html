@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  background: #f8f8f8;
+}
+.wrap {
+  font-family:sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+h1 {
+  margin:10px 0;
+}
+h1,h2 { color: #666666; }
+p {
+}
+.maker {
+  display: block;
+  padding: 15px 0;
+}
+.input {
+  line-height: 2.6
+}
+.tower-wrap {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 0;
+  width: 100%;
+  max-width:700px;
+}
+.tower {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  height: 250px;
+  width: 33.3%;
+  box-sizing: border-box;
+  background:#eeeeee;
+  padding: 0 5px;
+  background-clip: content-box;
+}
+.tower:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  height: 100%;
+}
+.tower:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left:-2%;
+  display: block;
+  width: 4%;
+  background: #cccccc;
+  height: 100%;
+  
+}
+.disc-container {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  vertical-align: bottom;
+  z-index: 2;
+}
+.d1 {
+  width: 10%;
+  margin: 0 45%;
+  background: red;
+}
+.d2 {
+  width: 20%;
+  margin: 0 40%;
+  background:yellow;
+}
+.d3 {
+  width: 30%;
+  margin: 0 35%;
+  background: green;
+}
+.d4 {
+  width: 40%;
+  margin: 0 30%;
+  background: cyan;
+}
+.d5 {
+  width: 50%;
+  margin: 0 25%;
+  background: blue;
+}
+.d6 {
+  width: 60%;
+  margin: 0 20%;
+  background: magenta;
+}
+.d7 {
+  width: 70%;
+  margin: 0 15%;
+  background: tan;
+}
+.d8 {
+  width: 80%;
+  margin: 0 10%;
+  background: teal;
+}
+.d9 {
+  width: 90%;
+  margin: 0 5%;
+  background: brown;
+}
+.d10 {
+  width: 100%;
+  margin: 0;
+  background: Turquoise;
+}
+.disc {
+  display: block;
+  position: relative;
+  height: 8px;
+  margin-bottom: 5px;
+  border-bottom: 2px solid rgba(0,0,0,0.4);
+}
+.selected {
+  top: -100px;
+}
+.moveCounter {
+  margin-top: 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.button {
+  background: transparent;
+  font-size: 20px;
+  font-weight: 700;
+  padding:10px;
+  border:2px solid black;
+}
+
+.playgame {
+  color: red;
+  border-color: red;
+}
+
+.difficulty {
+  font-size: 20px;
+  padding: 10px;
+}
+.finish {
+  margin: 10px;
+  font-size:25px;
+  color: black;
+}
+.hidden {
+  display: none;
+}

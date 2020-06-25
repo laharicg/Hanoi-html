@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tower of Hanoi</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<script defer src="script.js" ></script>
+
+<body>
+   
+<div class="wrap" id="game">
+    <h1>Towers of hanoi</h1>
+      <div class="play-screen">
+         <div class="tower-wrap">
+         <div class="tower">
+            <div class="disc-container"></div>
+         </div>
+         <div class="tower">
+            <div class="disc-container"></div>
+         </div>
+         <div class="tower">
+            <div class="disc-container"></div>
+         </div>
+       </div>
+       <span class="moveCounter">moves: </span>
+      
+       <h2 class="finish">Congratulations! you did it <span class="multiple hidden">x times </span>in <span class="movesShower">x</span> moves.<span class="minimum hidden"> The best possible score!</span></h2>
+      
+       <div class="input">
+         <span>Number of Disks</span>
+         <select class="difficulty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+         </select>
+         <button type="button" class="button playnew">Start New Game</button>
+         
+      </div>
+   </div>
+   
+</div>
+</body>
+</html>
